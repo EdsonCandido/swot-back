@@ -1,10 +1,10 @@
 {
    "type": "postgres",
-   "host": "localhost",
+   "host": "ec2-35-168-198-9.compute-1.amazonaws.com",
    "port": 5432,
-   "username": "postgres",
-   "password": "postgres",
-   "database": "tcc",
+   "username": "fcrbkvcncnuvei",
+   "password": "1f6327a936be481bb7ec1a9da5ca7d89cef4d615553a9d1b20cc23bd23e1f473",
+   "database": "d6mp7dtnvi28rr",
    "logging": false,
    "synchronize": true,
    "entities": [
