@@ -18,6 +18,6 @@ module.exports = {
       "subscribersDir": "src/subscriber"
    },
    "extra": {
-      "ssl": true
+      "ssl": false
  }
 }
