@@ -1,8 +1,9 @@
 {
-   "url":"postgres://fcrbkvcncnuvei:1f6327a936be481bb7ec1a9da5ca7d89cef4d615553a9d1b20cc23bd23e1f473@ec2-35-168-198-9.compute-1.amazonaws.com:5432/d6mp7dtnvi28rr",
+   "url":"postgres://fcrbkvcncnuvei:1f6327a936be481bb7ec1a9da5ca7d89cef4d615553a9d1b20cc23bd23e1f473@ec2-35-168-198-9.compute-1.amazonaws.com:5432/d6mp7dtnvi28rr?ssl=true",
    "type": "postgres",
    "host": "ec2-35-168-198-9.compute-1.amazonaws.com",
    "port": 5432,
+   ""
    "username": "fcrbkvcncnuvei",
    "password": "1f6327a936be481bb7ec1a9da5ca7d89cef4d615553a9d1b20cc23bd23e1f473",
    "database": "d6mp7dtnvi28rr",
