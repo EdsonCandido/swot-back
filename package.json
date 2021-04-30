@@ -15,6 +15,7 @@
    "dependencies": {
       "body-parser": "^1.18.1",
       "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
       "express": "^4.15.4",
       "morgan": "^1.10.0",
       "nodemailer": "^6.5.0",
@@ -24,8 +25,8 @@
       "typeorm-encrypted": "^0.5.6"
    },
    "scripts": {
-      "build":"tsc",
-      "start":" node build/server.js",
+      "build": "tsc",
+      "start": " node build/server.js",
       "start-dev": "ts-node src/server.ts",
       "dev": "nodemon"
    }
