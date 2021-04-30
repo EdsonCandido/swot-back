@@ -1,0 +1,66 @@
+GET http://localhost:4000/student HTTP/1.1
+###
+GET http://localhost:4000/post HTTP/1.1
+###
+POST http://localhost:4000/teacher/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "Alex@ufersa.edu.br",
+    "password": "1111"
+}
+###
+GET http://localhost:4000/post/ HTTP/1.1
+###
+GET http://localhost:4000/advisor HTTP/1.1
+###
+GET  http://localhost:4000/coordinator HTTP/1.1
+
+###
+POST  http://localhost:4000/student HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Edson Cândido Alves Júnior",
+    "email": "edson@ed.com",
+    "password": "1111"
+}
+###################################
+#Teacher
+###
+POST  http://localhost:4000/teacher HTTP/1.1
+content-type: application/json
+
+{
+    "email": "Alex@ufersa.edu.br",
+    "name":"Alex da Silva",
+    "password": "1111"
+}
+###
+###################################
+#POST
+###
+POST  http://localhost:4000/post HTTP/1.1
+content-type: application/json
+
+{
+    "theme":"Algoritmos Genéticos como uma abordagem para a alocação de grade de horários da UFERSA",
+    "area":"Algoritmos Genéticos",
+    "description":"Em diversas situações precisa-se de soluções para problemas que são de difícil manipulação através de técnicas tradicionais de computação, devido à alta complexidade e ao grande tamanho do espaço de busca. Com o objetivo de facilitar a resolução destes problemas, de forma eficiente e flexível, são propostos os Algoritmos Genéticos, os quais utilizam regras de transição probabilísticas e não regras determinísticas, para encontrar uma solução ótima - ou quase ótima - para o problema.",
+    "owner": 2
+   
+}
+###
+DELETE   http://localhost:4000/post/1 HTTP/1.1
+content-type: application/json
+###
+POST  http://localhost:4000/email HTTP/1.1
+content-type: application/json
+
+{
+    "to":"edsonj85@gmail.com",
+    "subject":"Envio de Emails",
+    "message":"<p>Teste de Email do SWOT</p>"
+   
+}
+###
